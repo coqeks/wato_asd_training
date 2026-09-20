@@ -14,6 +14,6 @@ Link to Onboarding Assignment: https://wiki.watonomous.ca/
 ## Task Checklist
 
 - [x] Complete Costmap Node
-- [] Complete Map Memory Node
-- [] Complete Planner Node
-- [] Complete Control Node
+- [ ] Complete Map Memory Node
+- [ ] Complete Planner Node
+- [ ] Complete Control Node
