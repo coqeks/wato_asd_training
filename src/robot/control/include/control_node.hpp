@@ -46,7 +46,7 @@ class ControlNode : public rclcpp::Node {
     // Tuning parameters
     const double lookahead_distance = 1.0;
     const double goal_tolerance = 0.2;
-    const double linear_speed = 0.5;
+    const double linear_speed = 1;
 };
 
 #endif

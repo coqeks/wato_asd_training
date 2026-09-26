@@ -32,7 +32,7 @@ class MapMemoryNode : public rclcpp::Node {
     double last_x_ = 0.0;
     double last_y_ = 0.0;
     double costmap_yaw_; // Used to align costmap axis to global
-    const double distance_threshold = 1.0;
+    const double distance_threshold = 0.5;
     const int costmap_cols = 200;
     const int costmap_rows = 200;
     bool costmap_updated_ = false; // In pseudo code, this is always true after the very first costmap msg, probably should flag it false after each update
